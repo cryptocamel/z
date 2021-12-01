@@ -1,0 +1,11 @@
+cd uniswap-interface
+
+rm -rf .git
+
+git init
+
+git remote add origin https://github.com/{username}/{project name}.git
+
+yarn add gh-pages
+
+yarn build
